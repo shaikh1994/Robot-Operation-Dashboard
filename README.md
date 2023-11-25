@@ -6,7 +6,7 @@ This is a responsive dashboard  built on top of TailwindCSS and fully coded in R
 
 ## Live demo
 
-Check the live demo here 👉️ [https://mosaic.cruip.com/](https://mosaic.cruip.com/)
+Check the live demo here 👉️ [https://mosaic.cruip.com/](https://robot-operation-dashboard.netlify.app/)
 
 ## Table of contents
 
