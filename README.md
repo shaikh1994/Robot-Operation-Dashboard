@@ -1,24 +1,12 @@
 # Robot Operation Analytics Dashboard 
 
-![Mosaic TailwindCSS template preview](https://github.com/cruip/tailwind-dashboard-template/assets/2683512/d252e308-8869-4b70-bce8-bb44071f8b2e)
+![Mosaic TailwindCSS template preview](![Screenshot 2023-11-25 195340](https://github.com/shaikh1994/Robot-Operation-Dashboard/assets/43321233/27037f3b-2a98-4e7f-b671-36395b1c12b5))
 
 This is a responsive dashboard  built on top of TailwindCSS and fully coded in React. It comes with several pre-coded charts (built with Chart.js 3) and widgets.
-
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
-
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com/).
 
 ## Live demo
 
 Check the live demo here 👉️ [https://mosaic.cruip.com/](https://mosaic.cruip.com/)
-
-## Mosaic Pro
-
-[![Mosaic Pro](https://user-images.githubusercontent.com/2683512/151177026-3d063355-976d-4fdb-a5ed-9c1501c58af2.png)](https://cruip.com/mosaic/)
-
-## Design files
-
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/3sigqHe
 
 ## Table of contents
 
@@ -33,7 +21,7 @@ If you need the design files, you can download them from Figma's Community 👉 
 
 ## Usage
 
-This project was bootstrapped with [Vite](https://vitejs.dev/).
+This project was done with [React](https://react.dev/).
 
 ### Project setup
 ```
@@ -71,3 +59,4 @@ npm run build
 - Filter button to add to hide widget. ( No implemented now)
 - A date selection tab ( Only UI. Will add feature in the future)
 - Add view button to add more widgets/blocks. ( Only UI. Will add feature in the future)
+![Screenshot 2023-11-25 195340](https://github.com/shaikh1994/Robot-Operation-Dashboard/assets/43321233/27037f3b-2a98-4e7f-b671-36395b1c12b5)
