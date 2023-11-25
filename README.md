@@ -28,7 +28,7 @@ If you need the design files, you can download them from Figma's Community 👉 
   * [Compiles and minifies for production](#compiles-and-minifies-for-production)
   * [Customize configuration](#customize-configuration)
 * [Features](#Features)            
-* [Special Notes (Future Features)](#Special-Notes-(Future-Features))
+* [Special Notes (Future Features)](#Special-Notes)
 
 
 ## Usage
