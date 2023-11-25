@@ -55,6 +55,10 @@ npm run build
 - Conatains a serch button on header. ( Serch function not implemented)
 - Notifications tab added on the header but not clickable now.
 - User tab dorpdown which contains 2 buttons settings and users which are currently mapped to hompage.
+- Side-bar with auto hide option
+- Filter button to add to hide widget. ( No implemented now)
+- A date selection tab ( Only UI. Will add feature in the future)
+- Add view button to add more widgets/blocks. ( Only UI. Will add feature in the future)
 
 ## Working Directory    
 ```
@@ -128,8 +132,4 @@ npm run build
             Utils.js
 ```
 
-- Side-bar with auto hide option
-- Filter button to add to hide widget. ( No implemented now)
-- A date selection tab ( Only UI. Will add feature in the future)
-- Add view button to add more widgets/blocks. ( Only UI. Will add feature in the future)
 
