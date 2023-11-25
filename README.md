@@ -59,4 +59,4 @@ npm run build
 - Filter button to add to hide widget. ( No implemented now)
 - A date selection tab ( Only UI. Will add feature in the future)
 - Add view button to add more widgets/blocks. ( Only UI. Will add feature in the future)
-![Screenshot 2023-11-25 195340](https://github.com/shaikh1994/Robot-Operation-Dashboard/assets/43321233/27037f3b-2a98-4e7f-b671-36395b1c12b5)
+
