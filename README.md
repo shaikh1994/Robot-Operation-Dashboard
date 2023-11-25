@@ -17,7 +17,7 @@ Check the live demo here 👉️ [https://robot-operation-dashboard.netlify.app/
   * [Customize configuration](#customize-configuration)
 * [Features](#Features)            
 * [Special Notes (Future Features)](#Special-Notes)
-
+* [Working Directory](#Working-Directory)   
 
 ## Usage
 
@@ -55,6 +55,79 @@ npm run build
 - Conatains a serch button on header. ( Serch function not implemented)
 - Notifications tab added on the header but not clickable now.
 - User tab dorpdown which contains 2 buttons settings and users which are currently mapped to hompage.
+
+## Working Directory    
+```
+
++---public
+ª       _redirects
+ª       
++---src
+    ª   App.jsx
+    ª   favicon.svg
+    ª   main.jsx
+    ª   
+    +---charts
+    ª       BarChart01.jsx
+    ª       BarChart03.jsx
+    ª       ChartjsConfig.jsx
+    ª       DoughnutChart.jsx
+    ª       LineChart01.jsx
+    ª       LineChart02.jsx
+    ª       RealtimeChart.jsx
+    ª       
+    +---components
+    ª       Datepicker.jsx
+    ª       DateSelect.jsx
+    ª       DropdownEditMenu.jsx
+    ª       DropdownFilter.jsx
+    ª       DropdownNotifications.jsx
+    ª       DropdownProfile.jsx
+    ª       ModalSearch.jsx
+    ª       ThemeToggle.jsx
+    ª       Tooltip.jsx
+    ª       
+    +---css
+    ª   ª   style.css
+    ª   ª   tailwind.config.js
+    ª   ª   
+    ª   +---additional-styles
+    ª           flatpickr.css
+    ª           utility-patterns.css
+    ª           
+    +---data
+    ª       mockData.json
+    ª       
+    +---images
+    ª       frodobot.png
+    ª       frodobot_white.png
+    ª       logo.svg
+    ª       logoa.png
+    ª       
+    +---pages
+    ª       Dashboard.jsx
+    ª       
+    +---partials
+    ª   ª   Header.jsx
+    ª   ª   Sidebar.jsx
+    ª   ª   SidebarLinkGroup.jsx
+    ª   ª   
+    ª   +---dashboard
+    ª           DashboardCard01.jsx
+    ª           DashboardCard02.jsx
+    ª           DashboardCard03.jsx
+    ª           DashboardCard04.jsx
+    ª           DashboardCard05.jsx
+    ª           DashboardCard06.jsx
+    ª           DashboardCard07.jsx
+    ª           WelcomeBanner.jsx
+    ª           
+    +---utils
+            ThemeContext.jsx
+            Transition.jsx
+            Utils.js
+```
+
 - Side-bar with auto hide option
 - Filter button to add to hide widget. ( No implemented now)
 - A date selection tab ( Only UI. Will add feature in the future)
