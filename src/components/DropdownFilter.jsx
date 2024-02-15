@@ -101,7 +101,7 @@ function DropdownFilter({
             <li className="py-1 px-3">
               <label className="flex items-center">
                 <input type="checkbox" className="form-checkbox" />
-                <span className="text-sm font-medium ml-2">Frodobot Location</span>
+                <span className="text-sm font-medium ml-2">Bot Location</span>
               </label>
             </li>
           </ul>

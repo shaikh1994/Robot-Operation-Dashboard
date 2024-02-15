@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 import SidebarLinkGroup from './SidebarLinkGroup';
 
-import LogoImage from '../images/frodobot_white.png';
+import LogoImage from '../images/robot.png';
 
 function Sidebar({ sidebarOpen, setSidebarOpen }) {
   const location = useLocation();

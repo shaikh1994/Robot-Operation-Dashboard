@@ -71,7 +71,7 @@ function Dashboard() {
               <DashboardCard06 />             
             </div>
 
-            {/* Frodobot Location */}
+            {/* bot Location */}
             <div  style={{ marginTop: '20px' }}><DashboardCard07 /></div>
             
           </div>

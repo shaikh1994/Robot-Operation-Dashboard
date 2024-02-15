@@ -85,7 +85,7 @@ function DashboardCard02() {
       </header>
       {/* Dropdown to select robot */}
       <div className="px-5 py-3">
-        <label htmlFor="robots" className="mr-2 font-semibold text-slate-800 dark:text-slate-100">Select Frodobot: </label>
+        <label htmlFor="robots" className="mr-2 font-semibold text-slate-800 dark:text-slate-100">Select Bot: </label>
         <select
           id="robots"
           name="robots"

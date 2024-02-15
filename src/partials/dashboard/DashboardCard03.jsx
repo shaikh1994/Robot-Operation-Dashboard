@@ -14,7 +14,7 @@ function DashboardCard03() {
     labels: robotsData.map((robot) => robot.label),
     datasets: [
       {
-        label: 'Number of Cities Covered by FrodoBots',
+        label: 'Number of Cities Covered by Bots',
         data: robotsData.map((robot) => robot.data),
         backgroundColor: [
           tailwindConfig().theme.colors.blue[400],

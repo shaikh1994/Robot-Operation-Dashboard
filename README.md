@@ -1,8 +1,8 @@
-# Robot Operation Analytics Dashboard 
+# Robot Operation Analytics Dashboard
 
 ![Screenshot 2023-11-25 195340](https://github.com/shaikh1994/Robot-Operation-Dashboard/assets/43321233/27037f3b-2a98-4e7f-b671-36395b1c12b5)
 
-This is a responsive dashboard  built on top of TailwindCSS and fully coded in React. It comes with several pre-coded charts (built with Chart.js 3) and widgets.
+This is a responsive dashboard built on top of TailwindCSS and fully coded in React. It comes with several pre-coded charts (built with Chart.js 3) and widgets.
 
 ## Live demo
 
@@ -10,34 +10,36 @@ Check the live demo here 👉️ [https://robot-operation-dashboard.netlify.app/
 
 ## Table of contents
 
-* [Usage](#usage)
-  * [Project setup](#project-setup)
-  * [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
-  * [Compiles and minifies for production](#compiles-and-minifies-for-production)
-  * [Customize configuration](#customize-configuration)
-* [Features](#Features)            
-* [Special Notes (Future Features)](#Special-Notes)
-* [Working Directory](#Working-Directory)   
+- [Usage](#usage)
+  - [Project setup](#project-setup)
+  - [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
+  - [Compiles and minifies for production](#compiles-and-minifies-for-production)
+  - [Customize configuration](#customize-configuration)
+- [Features](#Features)
+- [Special Notes (Future Features)](#Special-Notes)
+- [Working Directory](#Working-Directory)
 
 ## Usage
 
 This project was done with [React](https://react.dev/).
 
 ### Project setup
+
 ```
 npm install
 ```
 
 #### Compiles and hot-reloads for development
+
 ```
 npm run dev
 ```
 
 #### Compiles and minifies for production
+
 ```
 npm run build
 ```
-
 
 ## Features
 
@@ -60,17 +62,18 @@ npm run build
 - A date selection tab ( Only UI. Will add feature in the future)
 - Add view button to add more widgets/blocks. ( Only UI. Will add feature in the future)
 
-## Working Directory    
+## Working Directory
+
 ```
 
 +---public
 ª       _redirects
-ª       
+ª
 +---src
     ª   App.jsx
     ª   favicon.svg
     ª   main.jsx
-    ª   
+    ª
     +---charts
     ª       BarChart01.jsx
     ª       BarChart03.jsx
@@ -79,7 +82,7 @@ npm run build
     ª       LineChart01.jsx
     ª       LineChart02.jsx
     ª       RealtimeChart.jsx
-    ª       
+    ª
     +---components
     ª       Datepicker.jsx
     ª       DateSelect.jsx
@@ -90,32 +93,33 @@ npm run build
     ª       ModalSearch.jsx
     ª       ThemeToggle.jsx
     ª       Tooltip.jsx
-    ª       
+    ª
     +---css
     ª   ª   style.css
     ª   ª   tailwind.config.js
-    ª   ª   
+    ª   ª
     ª   +---additional-styles
     ª           flatpickr.css
     ª           utility-patterns.css
-    ª           
+    ª
     +---data
     ª       mockData.json
-    ª       
+    ª
     +---images
     ª       frodobot.png
     ª       frodobot_white.png
+    ª       robot.png
     ª       logo.svg
     ª       logoa.png
-    ª       
+    ª
     +---pages
     ª       Dashboard.jsx
-    ª       
+    ª
     +---partials
     ª   ª   Header.jsx
     ª   ª   Sidebar.jsx
     ª   ª   SidebarLinkGroup.jsx
-    ª   ª   
+    ª   ª
     ª   +---dashboard
     ª           DashboardCard01.jsx
     ª           DashboardCard02.jsx
@@ -125,11 +129,9 @@ npm run build
     ª           DashboardCard06.jsx
     ª           DashboardCard07.jsx
     ª           WelcomeBanner.jsx
-    ª           
+    ª
     +---utils
             ThemeContext.jsx
             Transition.jsx
             Utils.js
 ```
-
-
